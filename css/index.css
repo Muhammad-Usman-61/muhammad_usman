@@ -672,7 +672,21 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:95%;
+    width: 90%;
+    border-radius: 10px;
+    background: #c70039;
+}
+.css-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+    justify-content: center;
+    transition: all .4s ease;
+    width: 90%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -683,14 +697,26 @@ body{
     height: 80%;
     display: flex;
     align-items: center;
-    font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:90%;
+    width: 83%;
     border-radius: 10px;
     background: #c70039;
 }
-.adobe-progress{
+.liquid-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+    background: #c70039;
+    transition: all .4s ease;
+}
+.react-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -699,11 +725,11 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:83%;
+    width: 65%;
     border-radius: 10px;
     background: #c70039;
 }
-.php-progress{
+.git-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -711,33 +737,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:85%;
-    border-radius: 10px;
-    background: #c70039;
-    transition: all .4s ease;
-}
-.jquery-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-    width:94%;
-    border-radius: 10px;
-    background: #c70039;
-}
-.seo-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:84%;
+    width: 75%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #c70039;
